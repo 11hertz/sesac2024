@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Login Page</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <div class="container flex justify-center">
+      <div class="loginBox border border-solid border-black w-96">
+        <div class="loginHeader text-3xl text-center font-extrabold mt-4">Login</div>
+        <div class="emailWrap flex justify-between m-5">
+          <div class="emailLabel">
+            <label for="email">Email</label>
+          </div>
+          <div class="emailInput">
+            <input class="border border-solid border-blue-500 w-60 rounded-sm" type="email" name="email" id="email" />
+          </div>
+        </div>
+        <div class="passwordWrap flex justify-between m-5">
+          <div class="passwordLabel">
+            <label for="password">Password</label>
+          </div>
+          <div class="passwordInput">
+            <input
+              class="border border-solid border-blue-500 w-60 rounded-sm"
+              type="password"
+              name="password"
+              id="pass"
+            />
+          </div>
+        </div>
+        <div class="buttonWrap flex justify-between items-center mb-5 ml-5">
+          <div class="register">
+            <a href="#" class="underline text-blue-500">Regist</a>
+          </div>
+          <div class="login">
+            <button class="btn btn-primary w-[80px]">Login</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

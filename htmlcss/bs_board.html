@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Board</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <div class="col-12">
+          <div class="d-flex justify-content-center"><h3>게시판</h3></div>
+        </div>
+
+        <div class="row">
+          <div class="col-6">
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">게시글 3</h5>
+                  <small>3 days ago</small>
+                </div>
+                <p>김길동</p>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">게시글 2</h5>
+                  <small class="text-body-secondary">4 days ago</small>
+                </div>
+                <p>홍길동</p>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex justify-content-between">
+                  <h5 class="mb-1">게시글 1</h5>
+                  <small class="text-body-secondary">7 days ago</small>
+                </div>
+                <p>이길동</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 border border-solid border-black">
+            <div class="row border-bottom border-solid border-gray m-3 d-flex flex-column justify-content-between">
+              <div class="d-flex justify-content-between">
+                <div><h6>제목</h6></div>
+                <div><h6 class="fw-bolder">게시글 제목</h6></div>
+              </div>
+            </div>
+            <div class="row border-bottom border-solid border-gray m-3">
+              <div class="d-flex justify-content-between">
+                <div><h6>작성일자</h6></div>
+                <div><h6 class="fw-bolder">2024-01-22 12:20</h6></div>
+              </div>
+            </div>
+            <div class="row border-bottom border-solid border-gray m-3">
+              <div class="d-flex justify-content-between">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ab facilis reiciendis mollitia
+                  doloremque aliquid deleniti quas ratione molestiae quo, nam porro magnam ipsam, distinctio natus quos
+                  laborum ullam alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. In eaque eius vero
+                  dignissimos repudiandae alias, hic asperiores, dolorum corrupti voluptates, sunt quod. Illum molestias
+                  nemo dolore, consequatur quia fugiat aliquam!
+                </p>
+              </div>
+            </div>
+            <div class="row m-3">
+              <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-danger m-2">삭제하기</button>
+                <button type="button" class="btn btn-primary m-2">수정하기</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
