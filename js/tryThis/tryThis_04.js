@@ -5,8 +5,9 @@
 // 0.14 + 0.28     // 0.42000000000000004
 // 0.34 + 0.226    // 0.5660000000000001
 function addPoints(a, b) {
-  const pointLen = Math.max(a.toString().length, b.toString().length) - 2;
-  const res = (a + b).toFixed(pointLen);
+  const pointLen = Math.max(a?.toString().length, b?.toString().length) - 2;
+  const res = +(a + b).toFixed(pointLen);
+  console.log(res);
   return res;
 }
 
